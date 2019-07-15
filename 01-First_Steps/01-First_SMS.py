@@ -8,7 +8,7 @@ account_sid = my_Account_SID
 # Your Auth Token from twilio.com/console
 auth_token = my_account_token
 
-#To work with the APIs you need 
+#To work with the APIs you need this two things
 client = Client(account_sid, auth_token)
 
 message = client.messages.create(
