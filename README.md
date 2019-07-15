@@ -21,11 +21,12 @@ Then we’ll be able to use all the APIs and resources that Twilio offer to us.
 ## What you need?
 Twilio needs two credentials to work:
 
-´´´
+```python
+
 account = "ACXXXXXXXXXXXXXXXXX"
 token = "YYYYYYYYYYYYYYYYYY"
 
-´´´
+```
 
 ### Send an SMS:
 
