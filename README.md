@@ -18,7 +18,10 @@ in the console.
 
 Then we’ll be able to use all the APIs and resources that Twilio offer to us.
 
-## What you need?
+## You don't need to know Python?
+In this project I will to work with Python and I'll do the equivalent stuff without program anything too
+
+## If you know Python this is what you need?
 Twilio needs two credentials to work:
 
 ```python
