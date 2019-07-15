@@ -14,8 +14,8 @@ auth_token = os.environ.get('TWILIO_AUTH_TOKEN')
 client = Client(account_sid, auth_token)
 
 message = client.messages.create(
-	to = my_phone_number,
-	from_ = phone_number_bought,
+	to = "+52" + os.environ.get('MY_PHONE_NUMBER'),
+	from_ = "+1 719 425 4101",
 	body = "Hello, this is my message from python") 
 
 print(message.sid)
