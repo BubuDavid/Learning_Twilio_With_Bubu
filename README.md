@@ -28,6 +28,8 @@ token = "YYYYYYYYYYYYYYYYYY"
 
 ```
 
+Then, you just need to create a “Client” and you’re ready to go and explore all the cool stuff that Twilio has. 
+
 ### Send an SMS:
 
 ```python
