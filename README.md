@@ -39,8 +39,12 @@ account = "ACXXXXXXXXXXXXXXXXX"
 token = "YYYYYYYYYYYYYYYYYY"
 client = Client(account, token)
 
-message = client.messages.create(to="+12316851234", from_="+15555555555",
-                                 body="Hello there!")
+message = client.messages.create(
+	to = "+52" + os.environ.get('MY_PHONE_NUMBER'),
+	from_ = "+1 719 425 4101",
+	body = "Hello, this is my message from python") 
+
+print(message.sid)
 ```
 
 ### Make a Call:
@@ -52,8 +56,9 @@ account = "ACXXXXXXXXXXXXXXXXX"
 token = "YYYYYYYYYYYYYYYYYY"
 client = Client(account, token)
 
-call = client.calls.create(to="9991231234",
-                           from_="9991231234",
-                           url="http://twimlets.com/holdmusic?Bucket=com.twilio.music.ambient")
+call = client.calls.create(
+	to = "+52" + os.environ.get('MY_PHONE_NUMBER'),
+	from_ = "+1 719 425 4101",
+	url="http://twimlets.com/holdmusic?Bucket=com.twilio.music.ambient")
 print(call.sid)
 ```
