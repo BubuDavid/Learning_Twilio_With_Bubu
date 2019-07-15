@@ -1,5 +1,7 @@
 # We are going to send a SMS:
-* Click the *Runtime* button, then go to *API Explorer* section
+* Go to Console
+* Click the *Runtime* button
+* Then go to *API Explorer* section
 * Select *Programmable SMS*
 * Expand the *Messages API* ✉️
 * Select the POST (Create a message) action 
