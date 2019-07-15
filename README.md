@@ -18,7 +18,7 @@ in the console.
 
 Then we’ll be able to use all the APIs and resources that Twilio offer to us.
 
-## You don't need to know Python?
+## You don't need to know Python
 In this project I will to work with Python and I'll do the equivalent stuff without program anything too
 
 ## If you know Python this is what you need?
@@ -26,8 +26,8 @@ Twilio needs two credentials to work:
 
 ```python
 
-account = "ACXXXXXXXXXXXXXXXXX"
-token = "YYYYYYYYYYYYYYYYYY"
+account_sid = "ACXXXXXXXXXXXXXXXXX"
+auth_token = "YYYYYYYYYYYYYYYYYY"
 
 ```
 
@@ -38,9 +38,9 @@ Then, you just need to create a “Client” and you’re ready to go and explor
 ```python
 from twilio.rest import Client
 
-account = "ACXXXXXXXXXXXXXXXXX"
-token = "YYYYYYYYYYYYYYYYYY"
-client = Client(account, token)
+account_sid = "ACXXXXXXXXXXXXXXXXX"
+auth_token = "YYYYYYYYYYYYYYYYYY"
+client = Client(account_sid, auth_token)
 
 message = client.messages.create(
 	to = "+52" + os.environ.get('MY_PHONE_NUMBER'),
@@ -55,9 +55,9 @@ print(message.sid)
 ```python
 from twilio.rest import Client
 
-account = "ACXXXXXXXXXXXXXXXXX"
-token = "YYYYYYYYYYYYYYYYYY"
-client = Client(account, token)
+account_sid = "ACXXXXXXXXXXXXXXXXX"
+auth_token = "YYYYYYYYYYYYYYYYYY"
+client = Client(account_sid, auth_token)
 
 call = client.calls.create(
 	to = "+52" + os.environ.get('MY_PHONE_NUMBER'),
