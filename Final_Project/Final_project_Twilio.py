@@ -22,7 +22,7 @@ def sms():
 	message = client.messages.create(
 	to = "+52" + os.environ.get('MY_PHONE_NUMBER'),
 	from_ = "+1 719 425 4101",
-	body = "Help me! I'm in danger")
+	body = "Hello, Excuse me, I'm in danger")
 
 
 	return render_template('Home.html')

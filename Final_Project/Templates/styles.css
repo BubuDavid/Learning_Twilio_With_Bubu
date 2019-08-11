@@ -1,15 +1,22 @@
-.container
+div
 {
-
-	color: red;
-	background-color: lightgray;
+	
+	width: 30%;
+	margin: 10% 30%;
+	background: #B5B2ED;
 
 }
 
+.btn
+{
+
+	margin: 2rem 7rem;
+	font-size: 20px;
+}
 
 body
 {
 
-	background: red;
-	
+	background: #FFF1F1;
+
 }
