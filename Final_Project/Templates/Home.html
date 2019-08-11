@@ -1,25 +1,13 @@
-<!DOCTYPE html>
-<html>
-<head>
+{% extends 'Base/base.html'%}
 
-<!-- Imporing bootstrap -->
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+{% block content %}
 
-	<title>Panic Button</title>
+<div class="img-fluid rounded" >
 
-<!-- Importing my own styles -->
-	<link rel="stylesheet" href="../static/styles.css">
+	<p><a href="/SMS" class="alert-link"> <button type="button" class="btn btn-danger rounded-pill">Mensaje de emergencia</button></a></p>
+	<p><button type="button" class="btn btn-danger rounded-pill">Llamada de emergencia</button></p>
+	<p><button type="button" class="btn btn-danger rounded-pill">Correo de emergencia</button></p>
 
-</head>
-<body>
+</div>
 
-	<div class="img-fluid rounded" >
-
-		<p><a href="/SMS" class="alert-link"> <button type="button" class="btn btn-danger">Mensaje de emergencia</button></a></p>
-		<p><button type="button" class="btn btn-danger">Llamada de emergencia</button></p>
-		<p><button type="button" class="btn btn-danger">Correo de emergencia</button></p>
-
-	</div>
-
-</body>
-</html>
+{% endblock %}
