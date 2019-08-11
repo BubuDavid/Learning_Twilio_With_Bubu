@@ -9,7 +9,12 @@ The very first thing is to create a Twilio account, in the [official Twilio webs
 The next step is get in Twilio console, then you could see one amazing button that says: 
 “TwilioQuest” these place is one of the most comprehensible and the coolest tutorial you’d could see ever. But in this lecture we don’t going to discuss that, in fact, I’m going to take all these "started material" and going to explain to you how this works in a very simple way.
 
-Explore the interface until you feel comfortable to continue. Well, let’s create our first program with Twrilio and Python!
+Explore the interface until you feel comfortable to continue. 
+Well, let’s create our first program with Twrilio and Python!
+
+## You need a Twilio number:
+* Go to numbers section and chose one, any of them will be useful. 
+* Now, you just save the number and don't close the *console* section.
 
 ## Twilio Installation using pip:
 To install Twilio for Python we need to write: 
@@ -18,11 +23,6 @@ in the console.
 
 Then we’ll be able to use all the APIs and resources that Twilio offer to us.
 
-## You don't need to know Python
-In this project I will to work with Python and I'll do the equivalent stuff without program anything too
-
-## If you know Python this is what you need?
-Twilio needs two credentials to work:
 
 ```python
 
