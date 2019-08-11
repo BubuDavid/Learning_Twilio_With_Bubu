@@ -1,6 +1,8 @@
+<!-- This is not nessesary -->
+
 # We are going to send a SMS:
 * Go to Console
-* Click the *Runtime* button
+* Look for *API Explorer in the options
 * Then go to *API Explorer* section
 * Select *Programmable SMS*
 * Expand the *Messages API* ✉️
